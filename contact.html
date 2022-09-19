@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="eduford_img/logo.png">
+            </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="course.html">Course</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"   onclick="showMenu()"></i>
+        </nav>
+
+       <h1>Contact Us</h1>
+    </section>
+    <section class="contact">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d114487.28958955684!2d72.96050223394806!3d26.27049634694098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39418c4eaa06ccb9%3A0x8114ea5b0ae1abb8!2sJodhpur%2C%20Rajasthan!5e0!3m2!1sen!2sin!4v1657356101137!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="row">
+           
+            <div class="contact-col">
+                <div>
+                    <i class="fa fa-home">
+
+                    </i>
+                    <span>
+                        <h5>XYZ road, ABC Building</h5>
+                        <p>Jodhpur,IN</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-phone">
+
+                    </i>
+                    <span>
+                        <h5>+91 123456789</h5>
+                        <p>Monday To Saturday,6pm</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa fa-envelope-o">
+
+                    </i>
+                    <span>
+                        <h5>info@gmail.com</h5>
+                        <p>Email Us For Query</p>
+                    </span>
+                </div>
+            </div>
+            <div class="contact-col">
+                <form action="">
+            <input type="text" placeholder="Enter Your Name" required></form>
+            <input type="email" placeholder="Enter Your Email" required></form>
+            <input type="text" placeholder="Enter Your subject" required></form>
+            <textarea  rows="8" placeholder="Message"></textarea>
+            <button type="submit" class="btn red-btn">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+        <section class="footer">
+            <h4>ABOUT US</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero dolorum saepe facere<br> temporibus tempore, sed nisi doloremque inventore quo ut.</p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkedin"></i>
+
+            </div>
+        </section>
+
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu()
+        {
+            navLinks.style.right="0";
+        }
+        function hideMenu()
+        {
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
